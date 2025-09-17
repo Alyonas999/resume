@@ -41,9 +41,10 @@ body {
 }
 
 /* About me */
-.infotmation{
-    padding: 30px;
+.infotmation {
+  padding: 30px;
 }
+
 .my-name {
   font-size: 35px;
   font-weight: 700;
@@ -91,15 +92,17 @@ body {
   font-weight: 700;
 }
 
+
 .project-experience-company {
-  color: black;
-  text-decoration: none;
+  color: #161d2a;
+  text-decoration: underline; 
+  transition: color 0.2s ease;
 }
 
 .project-experience-company:hover {
   color: #EAAAA0;
-  text-decoration: underline;
 }
+
 
 .project-languages {
   font-size: 10px;
@@ -154,19 +157,17 @@ body {
   word-break: break-word; 
 }
 
-.Contacts-item a,
+
 .Contacts-github a,
 .Contacts-linkedin a {
   color: #161d2a;
-  text-decoration: none;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
+  text-decoration: underline; 
+  transition: color 0.2s ease;
 }
 
-.Contacts-item a:hover,
 .Contacts-github a:hover,
 .Contacts-linkedin a:hover {
   color: #EAAAA0;
-  text-decoration: underline;
 }
 
 /* Hard skills */
